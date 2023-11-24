@@ -1,3 +1,8 @@
+// Example usage:
+const s = "anagram";
+const t = "nagaram";
+console.log(isAnagram(s, t));
+
 function isAnagram(s, t) {
     if (s.length != t.length) {
         return false;
@@ -20,10 +25,6 @@ function isAnagram(s, t) {
         }
     }
 
-    return true;
-}
+    return true
 
-// Example usage:
-const s = "anagram";
-const t = "nagaram";
-console.log(isAnagram(s, t));
+}
